@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Quick Park</title>
+  <link href="Content/bootstrap.min.css" rel="stylesheet" />
+  <link href="Content/Site.css" rel="stylesheet" />
+  <link href="Content/pdsa-sidebar.css" rel="stylesheet" />
+  <link href="Content/pdsa-summary-block.css" rel="stylesheet" />
+  <link href="Content/pdsa-readme-box.css" rel="stylesheet" />
+</head>
+<body class="notransition">
+  <div class="container">
+    <div class="row">
+      <header>
+        <a href="http://ec2-52-27-75-76.us-west-2.compute.amazonaws.com/kite/default/main.php">Quick Park</a>
+      </header>
+    </div>
+    <nav class="pdsa-sn-wrapper">
+      <ul id="sideNavParent">
+        <li>
+          <a href="admin.html">
+            <span class="visible-sm visible-md visible-lg">Home</span>
+            <i class="glyphicon glyphicon-home visible-xs"></i>
+          </a>
+        </li>
+        
+            </ul>     
+    </nav>
+  </div>
+
+  <div class="container body-content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="pdsa-summary-block pdsa-summary-block-primary">
+          <div class="summary-background">
+           
+          </div>
+          <div class="summary-body">
+            <div class="summary-line2">Garage</div>
+          </div>
+          <div class="summary-footer">
+          <form method="post" action="addgarage.php">
+            <input type="submit" value="Add new garage..." style="background-color:deepskyblue">
+              
+              <i class="glyphicon glyphicon-chevron-right
+                pull-right">
+              </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      </form>
+      <div class="col-xs-12 col-sm-4">
+        <div class="pdsa-summary-block pdsa-summary-block-success">
+          <div class="summary-background">
+            
+          </div>
+          <div class="summary-body">
+            
+
+            
+
+              <div class="summary-line2">
+              Sensors
+              </div>
+          
+          </div>
+          <div class="summary-footer">
+		  <form method="post" action="addsensor.php">
+           <input type="submit" value="Update Sensor..." style="background-color:green">
+              
+              </form>
+
+              <i class="glyphicon glyphicon-chevron-right pull-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="pdsa-summary-block pdsa-summary-block-info">
+          <div class="summary-background">
+            
+          </div>
+          <div class="summary-body">
+           
+            <div class="summary-line2">
+              Map view of garages
+            </div>
+          </div>
+          <div class="summary-footer">
+          <form method="post" action="sensor.php">
+           <input type="submit" value="Click to view map..." style="background-color:cadetblue">
+              <i class="glyphicon glyphicon-chevron-right pull-right">
+              </i></form>
+            </a>
+          </div>
+        </div>
+      </div>
+	  <div class="col-xs-12 col-sm-4">
+        <div class="pdsa-summary-block pdsa-summary-block-danger">
+          <div class="summary-background">
+            
+          </div>
+          <div class="summary-body">
+            
+            <div class="summary-line2">
+              Sensor 
+            </div>
+          </div>
+          <div class="summary-footer">
+           <form method="post" action="newsensor.php">
+           <input type="submit" value="Click to Add Sensors" style="background-color:red">
+              <i class="glyphicon glyphicon-chevron-right pull-right">
+              </i></form> 
+          </div>
+        </div>
+      </div>
+   
+
+  <script src="Scripts/jquery-1.11.0.min.js"></script>
+  <script src="Scripts/bootstrap.min.js"></script>
+  <script src="Scripts/pdsa-common.js"></script>
+</body>
+</html>
